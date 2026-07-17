@@ -6,15 +6,12 @@ import { PlayIcon } from "@heroicons/react/24/solid";
 function Hero() {
   return (
     <div className="relative min-h-screen w-full bg-cover bg-no-repeat">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 h-full w-full object-cover"
-      >
-        <source src="/image/splash.mp4" type="video/mp4" />
-      </video>
+      <iframe
+        className="absolute top-0 left-0 h-full w-full object-cover pointer-events-none"
+        src="https://www.youtube.com/embed/TBsBq7298JU?autoplay=1&mute=1&loop=1&playlist=TBsBq7298JU&controls=0&showinfo=0&rel=0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+      />
       <div className="absolute inset-0 h-full w-full bg-gray-700/60" />
       <div className="grid min-h-screen px-8">
         <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
