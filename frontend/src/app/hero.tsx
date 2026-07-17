@@ -6,20 +6,23 @@ import { PlayIcon } from "@heroicons/react/24/solid";
 function Hero() {
   return (
     <div className="relative min-h-screen w-full bg-cover bg-no-repeat">
-      <iframe
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute top-0 left-0 h-full w-full object-cover pointer-events-none"
-        src="https://www.youtube.com/embed/TBsBq7298JU?autoplay=1&mute=1&loop=1&playlist=TBsBq7298JU&controls=0&showinfo=0&rel=0"
-        allow="autoplay; encrypted-media"
-        allowFullScreen
-      />
+      >
+        <source src="/image/youtube_bg.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 h-full w-full bg-gray-700/60" />
       <div className="grid min-h-screen px-8">
         <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
-          <Typography variant="h3" color="white" className="mb-2">
+          <Typography variant="h3" color="white" className="mb-2 uppercase tracking-widest text-cyan-400 font-bold drop-shadow-md">
             1st August @ Hatchworks
           </Typography>
-          <Typography variant="h1" color="white" className="lg:max-w-3xl">
-            Head Start
+          <Typography variant="h1" className="lg:max-w-3xl text-6xl md:text-8xl font-black uppercase tracking-tight drop-shadow-lg" style={{ WebkitTextStroke: '2px black' }}>
+            <span className="text-[#d8f126]">Head</span> <span className="text-white">Start</span>
           </Typography>
           <Typography
             variant="lead"
@@ -31,13 +34,10 @@ function Hero() {
           <div className="flex items-center gap-4">
             {/* Added Link to the Registration Page */}
             <a href="/register">
-              <Button variant="gradient" color="white">
+              <Button size="lg" className="bg-gradient-to-r from-[#e71a6e] to-[#f47321] hover:from-[#d8f126] hover:to-[#e71a6e] hover:text-black transition-all duration-300 text-white font-bold text-lg px-10 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-y-1 hover:translate-x-1 rounded-none border-2 border-black">
                 Get Registered
               </Button>
             </a>
-            <IconButton className="rounded-full bg-white p-6">
-              <PlayIcon className="h-4 w-4 text-gray-900" />
-            </IconButton>
           </div>
         </div>
       </div>

@@ -38,3 +38,7 @@ next-env.d.ts
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
+
+# heavy media files
+youtube_bg.mp4
+*.mp4

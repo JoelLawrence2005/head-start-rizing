@@ -10,9 +10,18 @@ import {
 
 export default function Register() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 px-4 bg-[url('/image/splash.mp4')] bg-cover bg-center relative">
+    <div className="relative min-h-screen w-full flex items-center justify-center px-4 overflow-hidden">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 h-full w-full object-cover pointer-events-none"
+      >
+        <source src="/image/youtube_bg.mp4" type="video/mp4" />
+      </video>
       {/* Dark overlay to match the hero section */}
-      <div className="absolute inset-0 h-full w-full bg-gray-900/80" />
+      <div className="absolute inset-0 h-full w-full bg-gray-700/60" />
       
       <Card className="relative z-10 w-full max-w-lg p-8 shadow-2xl">
         <Typography variant="h3" color="blue-gray" className="mb-2 text-center">
