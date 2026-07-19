@@ -46,6 +46,7 @@ export function AboutEvent() {
             title="Networking!"
             subTitle="Community"
             description="Connect with industry leaders, AI experts, and fellow enthusiasts to build valuable professional relationships."
+            image="frontend\public\image\WhatsApp Image 2026-07-19 at 12.04.08.jpeg"
           />
         </div>
       </div>
