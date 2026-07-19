@@ -11,14 +11,14 @@ import {
 export default function Register() {
   return (
     <div className="relative min-h-screen w-full flex items-center justify-center px-4 overflow-hidden">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 h-full w-full object-cover pointer-events-none"
+      <video 
+        autoPlay 
+        loop 
+        muted 
+        playsInline 
+        className="absolute inset-0 h-full w-full object-cover"
       >
-        <source src="/image/youtube_bg.mp4" type="video/mp4" />
+        <source src="https://7coewmodf94rivxl.private.blob.vercel-storage.com/youtube_bg.mp4?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfN0NvZXdNT0RGOTRySXZYbCIsIm93bmVySWQiOiJ0ZWFtX0Y5Ujl2UGJBNkpXYlF0WXllcjZkcDhNMCIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzg0NTI5Mzk3NTEwLCJpYXQiOjE3ODQ0ODYxOTk2MjN9.v4DQjWFv84ELTzYt0wbMEp2bIr9o7DNP46ry0M2EKKs&vercel-blob-signature=0VYpRTndrs-L59EvejBHn1OgbDg-jyL4rGZdRn--ux8" type="video/mp4" />
       </video>
       {/* Dark overlay to match the hero section */}
       <div className="absolute inset-0 h-full w-full bg-gray-700/60" />
