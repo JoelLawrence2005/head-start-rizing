@@ -38,9 +38,9 @@ function Hero() {
                 Get Registered
               </Button>
             </a>
-            <IconButton className="rounded-full bg-white p-6">
+            {/* <IconButton className="rounded-full bg-white p-6">
               <PlayIcon className="h-4 w-4 text-gray-900" />
-            </IconButton>
+            </IconButton> */}
           </div>
         </div>
       </div>
