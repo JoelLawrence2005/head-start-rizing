@@ -13,7 +13,7 @@ function Hero() {
         playsInline 
         className="absolute inset-0 h-full w-full object-cover"
       >
-        <source src="https://7coewmodf94rivxl.private.blob.vercel-storage.com/youtube_bg.mp4?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfN0NvZXdNT0RGOTRySXZYbCIsIm93bmVySWQiOiJ0ZWFtX0Y5Ujl2UGJBNkpXYlF0WXllcjZkcDhNMCIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzg0NTI5Mzk3NTEwLCJpYXQiOjE3ODQ0ODYxOTk2MjN9.v4DQjWFv84ELTzYt0wbMEp2bIr9o7DNP46ry0M2EKKs&vercel-blob-signature=0VYpRTndrs-L59EvejBHn1OgbDg-jyL4rGZdRn--ux8" type="video/mp4" />
+        <source src="/api/video" type="video/mp4" />
       </video>
       <div className="absolute inset-0 h-full w-full bg-gray-700/60" />
       <div className="grid min-h-screen px-8">
