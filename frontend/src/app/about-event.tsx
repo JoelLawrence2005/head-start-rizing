@@ -45,8 +45,8 @@ export function AboutEvent() {
           <AboutCard
             title="Networking!"
             subTitle="Community"
-            description="Connect with industry leaders, AI experts, and fellow enthusiasts to build valuable professional relationships."
-            image="frontend\public\image\WhatsApp Image 2026-07-19 at 12.04.08.jpeg"
+            description="Connect with Entrepreneurs, like-minded people, and fellow enthusiasts to build valuable professional relationships."
+            image="/image/networking.jpg"
           />
         </div>
       </div>
