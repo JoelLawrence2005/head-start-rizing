@@ -31,16 +31,30 @@ function Hero() {
           >
             Learning, Interactive, and Fun space to get to meet and know about the top Entrepreneurs in Sri Lanka
           </Typography>
-          <div className="flex items-center gap-4">
-            {/* Added Link to the Registration Page */}
-            <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
-              <Button variant="gradient" color="white">
-                Get Ticket
-              </Button>
-            </a>
-            {/* <IconButton className="rounded-full bg-white p-6">
-              <PlayIcon className="h-4 w-4 text-gray-900" />
-            </IconButton> */}
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-4">
+              {/* Added Link to the Registration Page */}
+              <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
+                <Button variant="gradient" color="white">
+                  Get Ticket
+                </Button>
+              </a>
+              {/* <IconButton className="rounded-full bg-white p-6">
+                <PlayIcon className="h-4 w-4 text-gray-900" />
+              </IconButton> */}
+            </div>
+            <div className="flex items-center gap-2 mt-2">
+              <a href="https://www.instagram.com/head._start/?hl=en" target="_blank" rel="noopener noreferrer">
+                <IconButton color="white" variant="text" className="rounded-full">
+                  <i className="fa-brands fa-instagram text-2xl" />
+                </IconButton>
+              </a>
+              <a href="https://www.facebook.com/share/1D9wUSjssr/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                <IconButton color="white" variant="text" className="rounded-full">
+                  <i className="fa-brands fa-facebook text-2xl" />
+                </IconButton>
+              </a>
+            </div>
           </div>
         </div>
       </div>
