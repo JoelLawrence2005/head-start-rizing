@@ -37,10 +37,10 @@ function NavItem({ children, href }: NavItemProps) {
 
 // Removed Account and Docs
 const NAV_MENU = [
-  {
-    name: "Page",
-    icon: RectangleStackIcon,
-  }
+  // {
+  //   name: "Page",
+  //   icon: RectangleStackIcon,
+  // }
 ];
 
 export function Navbar() {
@@ -108,12 +108,12 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-4 lg:flex">
-          <Button color={isScrolling ? "gray" : "white"} variant="text">
+          {/* <Button color={isScrolling ? "gray" : "white"} variant="text">
             Log in
           </Button>
           <a href="#!">
             <Button color={isScrolling ? "gray" : "white"}>blocks</Button>
-          </a>
+          </a> */}
         </div>
         <IconButton
           variant="text"

@@ -5,20 +5,16 @@ import StatsCard from "@/components/stats-card";
 
 const STATS = [
   {
-    count: "1,500+",
+    count: "50+",
     title: "Participants",
   },
   {
-    count: "50",
+    count: "5",
     title: "Speakers",
   },
   {
-    count: "20+",
-    title: "Workshops",
-  },
-  {
-    count: "3",
-    title: "Days",
+    count: "2 1/2 hr",
+    title: "Session",
   },
 ];
 

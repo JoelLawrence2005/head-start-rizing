@@ -12,14 +12,14 @@ export function Footer() {
             className="text-2xl md:text-3xl text-center font-bold "
             color="white"
           >
-            Join now and get 30% OFF!
+            Ealry Bird Offer Rs. 1000
           </Typography>
-          <Typography
+          {/* <Typography
             color="white"
             className=" md:w-7/12 text-center my-3 !text-base"
           >
             Don&apos;t miss out on this exclusive offer that will end soon.
-          </Typography>
+          </Typography> */}
           <div className="flex w-full md:w-fit gap-3 mt-2 flex-col md:flex-row">
             <Button color="white" size="md">
               buy ticket
@@ -34,9 +34,9 @@ export function Footer() {
             variant="h6"
             className="text-gray-900"
           >
-            Material Tailwind
+            Rizing Summer Interns '26
           </Typography>
-          <ul className="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
+          {/* <ul className="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
             {LINKS.map((link, index) => (
               <li key={index}>
                 <Typography
@@ -50,23 +50,23 @@ export function Footer() {
                 </Typography>
               </li>
             ))}
-          </ul>
+          </ul> */}
           <div className="flex w-fit justify-center gap-2">
             <IconButton size="sm" color="gray" variant="text">
-              <i className="fa-brands fa-twitter text-lg" />
-            </IconButton>
-            <IconButton size="sm" color="gray" variant="text">
-              <i className="fa-brands fa-youtube text-lg" />
+              <i className="fa-brands fa-facebook text-lg" />
             </IconButton>
             <IconButton size="sm" color="gray" variant="text">
               <i className="fa-brands fa-instagram text-lg" />
             </IconButton>
             <IconButton size="sm" color="gray" variant="text">
-              <i className="fa-brands fa-github text-lg" />
+              <i className="fa-brands fa-tiktok text-lg" />
             </IconButton>
+            {/* <IconButton size="sm" color="gray" variant="text">
+              <i className="fa-brands fa-github text-lg" />
+            </IconButton> */}
           </div>
         </div>
-        <Typography
+        {/* <Typography
           color="blue-gray"
           className="text-center mt-12 font-normal !text-gray-700"
         >
@@ -79,8 +79,8 @@ export function Footer() {
             Creative Tim
           </a>
           .
-        </Typography>
-        <p className="text-center font-normal !text-gray-700">Distributed by{" "} <a className="text-green-700 font-semibold" href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+        </Typography> */}
+        {/* <p className="text-center font-normal !text-gray-700">Distributed by{" "} <a className="text-green-700 font-semibold" href="https://themewagon.com" target="_blank">ThemeWagon</a></p> */}
       </div>
     </footer>
   );
