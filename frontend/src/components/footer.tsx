@@ -34,7 +34,7 @@ export function Footer() {
             variant="h6"
             className="text-gray-900"
           >
-            Rizing Summer Interns '26
+            Rizing Summer Interns &apos;26
           </Typography>
           {/* <ul className="flex justify-center my-4 md:my-0 w-max mx-auto items-center gap-4">
             {LINKS.map((link, index) => (

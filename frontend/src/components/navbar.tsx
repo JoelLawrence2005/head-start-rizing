@@ -13,6 +13,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -82,9 +83,11 @@ export function Navbar() {
         
         {/* Added Logo and changed text to Head Start */}
         <div className="flex items-center gap-3">
-          <img 
-            src="image/logo.jpeg" 
+          <Image 
+            src="/image/logo.jpeg" 
             alt="Head Start Logo" 
+            width={40}
+            height={40}
             className="h-10 w-10 object-contain rounded-md" 
           />
           <Typography
