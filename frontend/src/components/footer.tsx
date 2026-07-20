@@ -22,8 +22,8 @@ export function Footer() {
           </Typography> */}
           <div className="flex w-full md:w-fit gap-3 mt-2 flex-col md:flex-row">
             <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
-              <Button color="white" size="md">
-                get Ticket
+              <Button color="white" size="md" className="rounded-full">
+                buy ticket
               </Button>
             </a>
           </div>

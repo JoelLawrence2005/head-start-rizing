@@ -15,7 +15,7 @@ export function Contact() {
         Get in touch with Joel for any inquiries about the event.
       </Typography>
       <a href="https://wa.me/94778113763" target="_blank" rel="noopener noreferrer">
-        <Button color="green" size="lg" className="flex items-center gap-2 shadow-md shadow-green-500/20 hover:shadow-lg hover:shadow-green-500/40 transition-shadow">
+        <Button color="green" size="lg" className="flex items-center gap-2 shadow-md shadow-green-500/20 hover:shadow-lg hover:shadow-green-500/40 transition-shadow rounded-full">
           <i className="fa-brands fa-whatsapp text-2xl" />
           WhatsApp Joel
         </Button>

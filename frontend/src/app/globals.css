@@ -2,18 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  button {
+    position: relative;
+  }
+  
+  button:hover::after {
+    content: "";
+    position: absolute;
+    inset: -3px;
+    border-radius: inherit;
+    padding: 3px;
+    background: linear-gradient(90deg, #ff4500, #9400d3, #ff0000, #ff8c00, #ff4500);
+    background-size: 300% 100%;
+    animation: dragon-move 1.5s linear infinite;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 10;
+  }
+}
+
 @layer utilities {
   .animate-gradient-x {
-    animation: gradient-x 10s ease infinite;
-    background-size: 200% 200%;
+    animation: gradient-x 6s linear infinite;
+    background-size: 300% 100%;
   }
 }
 
 @keyframes gradient-x {
-  0%, 100% {
+  0% {
     background-position: 0% 50%;
   }
   50% {
     background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes dragon-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }

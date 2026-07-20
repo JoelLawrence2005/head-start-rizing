@@ -35,7 +35,7 @@ function Hero() {
             <div className="flex items-center gap-4">
               {/* Added Link to the Registration Page */}
               <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
-                <Button variant="gradient" color="white">
+                <Button variant="gradient" color="white" className="rounded-full">
                   Get Ticket
                 </Button>
               </a>
