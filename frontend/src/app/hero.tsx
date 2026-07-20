@@ -33,9 +33,9 @@ function Hero() {
           </Typography>
           <div className="flex items-center gap-4">
             {/* Added Link to the Registration Page */}
-            <a href="/register">
+            <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
               <Button variant="gradient" color="white">
-                Get Registered
+                Get Ticket
               </Button>
             </a>
             {/* <IconButton className="rounded-full bg-white p-6">

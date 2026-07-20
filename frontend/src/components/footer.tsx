@@ -21,9 +21,11 @@ export function Footer() {
             Don&apos;t miss out on this exclusive offer that will end soon.
           </Typography> */}
           <div className="flex w-full md:w-fit gap-3 mt-2 flex-col md:flex-row">
-            <Button color="white" size="md">
-              buy ticket
-            </Button>
+            <a href="https://forms.gle/6mqGtyAGdVMn117v5" target="_blank" rel="noopener noreferrer">
+              <Button color="white" size="md">
+                get Ticket
+              </Button>
+            </a>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center !justify-between">
